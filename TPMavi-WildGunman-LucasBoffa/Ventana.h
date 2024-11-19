@@ -7,52 +7,82 @@ class Ventana {
 	Texture texture_wopen;
 	Texture texture_wclose;
 	Texture texture_door;
-	Sprite sprite_window;
+	Sprite sprite_wopen;
+	Sprite sprite_wclose;
+	Sprite sprite_door;
 	bool isOpen = true;
 	bool isDoor = false;
-	Clock clock;
-	float intervalo;
+	bool isUp;
+	float x;
+	float y;
 	
 
 
 public:
-	Ventana(bool open, bool door, float tiempo) {
-		isOpen = open;
-		isDoor = door;
-		intervalo = tiempo;
+	Ventana(bool _isOpen, bool _isUp, bool _isDoor , float _x, float _y) {
+		isOpen = _isOpen;
+		isUp = _isUp;
+		isDoor = _isDoor;
+		x = _x;
+		y = _y;
+
+
 
 		//cargar texturas
 		texture_wopen.loadFromFile("../Assets/window-open.png");
 		texture_wclose.loadFromFile("../Assets/window-close.png");
 		texture_door.loadFromFile("../Assets/door.png");
 
-		posicionInicial();
+		sprite_wopen.setTexture(texture_wopen);
+		sprite_wclose.setTexture(texture_wclose);
+		sprite_door.setTexture(texture_door);
+
+
+		// Establecer el origen del sprite en su centro
+		sprite_wopen.setOrigin(sprite_wopen.getGlobalBounds().width / 2,sprite_wopen.getGlobalBounds().height / 2);
+		sprite_wclose.setOrigin(sprite_wclose.getGlobalBounds().width / 2, sprite_wclose.getGlobalBounds().height / 2);
+
+
+		sprite_wclose.setPosition(x, y);
+		sprite_wclose.setScale(1.8f, 1.8f);
+		sprite_wopen.setPosition(x, y);
+		sprite_wopen.setScale(2, 2);
+		sprite_door.setPosition(x, y);
+
 		
 	}
-
-	void posicionInicial() {
-		//asignar textura inicial
+	void Dibujar(RenderWindow* wnd) {
 		if (isOpen && !isDoor) {
-			sprite_window.setTexture(texture_wopen);
-			sprite_window.setScale(1.7f, 1.2f);
+			if (isUp)
+			{
+				sprite_wopen.setScale(1.6, 1.3);
+			}
+			else {
+				sprite_wopen.setScale(1.7, 1.7);
+			}
+			wnd->draw(sprite_wopen);
 		}
 		else if (!isOpen && !isDoor) {
-			sprite_window.setTexture(texture_wclose);
-			sprite_window.setScale(3.3f, 2.5f);
+			if (isUp)
+			{
+				sprite_wclose.setScale(3.3,2.5);
+			}
+			else {
+				sprite_wclose.setScale(3.3, 3.3);
+			}
+			wnd->draw(sprite_wclose);
 		}
 		else if (!isOpen && isDoor) {
-			sprite_window.setTexture(texture_door);
+			sprite_door.setScale(1.65,1.3);
+			wnd->draw(sprite_door);
 		}
 
-		//establecerOrigen();
 	}
 
-
-	void establecerOrigen() {
-		// Establecer el origen del sprite en su centro
-		sprite_window.setOrigin(sprite_window.getGlobalBounds().width / 2,
-			sprite_window.getGlobalBounds().height / 2);
+	Vector2f posicionVentana() {
+		return Vector2f(x, y);
 	}
+
 
 	bool getOpen() {
 		return isOpen;
@@ -60,28 +90,4 @@ public:
 	void setOpen(bool open) {
 		isOpen = open;
 	}
-
-	void posicionar(Vector2f posicion) {
-		sprite_window.setPosition(posicion);
-	}
-
-	void Dibujar(RenderWindow* wnd) {
-		wnd->draw(sprite_window);
-	}
-
-	void escalar(Vector2f vector) {
-		sprite_window.setScale(vector);
-	}
-
-	void alternarEstado() {
-		if (clock.getElapsedTime().asSeconds() > intervalo) {
-			 
-			setOpen(!isOpen);
-			posicionInicial();
-			//Reinicia el reloj
-			clock.restart();
-		}
-		
-	}
-
 };

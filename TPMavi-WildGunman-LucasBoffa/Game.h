@@ -6,7 +6,7 @@
 using namespace sf;
 
 class Game {
-	RenderWindow* _wnd;  //variable dinamica porque instanciamos enm el constructor, es el objeto central en SFML
+	RenderWindow* _wnd;
 	PlayerCrosshair* _player;
 	Saloon* _saloon;
 	
