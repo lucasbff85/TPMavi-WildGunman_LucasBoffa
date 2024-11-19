@@ -1,0 +1,118 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PROGRAMACION\\UNL-Tecnicatura Desarrollo de Videojuegos\\Modelos y Algoritmos para Videojuegos I\\TPMavi-WildGunman-LucasBoffa\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AAE67AE1-2CFD-4409-8FFD-48BE412678A1}|TPMavi-WildGunman-LucasBoffa\\TPMavi-WildGunman-LucasBoffa.vcxproj|D:\\PROGRAMACION\\UNL-Tecnicatura Desarrollo de Videojuegos\\Modelos y Algoritmos para Videojuegos I\\TPMavi-WildGunman-LucasBoffa\\TPMavi-WildGunman-LucasBoffa\\Saloon.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AAE67AE1-2CFD-4409-8FFD-48BE412678A1}|TPMavi-WildGunman-LucasBoffa\\TPMavi-WildGunman-LucasBoffa.vcxproj|solutionrelative:TPMavi-WildGunman-LucasBoffa\\Saloon.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAE67AE1-2CFD-4409-8FFD-48BE412678A1}|TPMavi-WildGunman-LucasBoffa\\TPMavi-WildGunman-LucasBoffa.vcxproj|D:\\PROGRAMACION\\UNL-Tecnicatura Desarrollo de Videojuegos\\Modelos y Algoritmos para Videojuegos I\\TPMavi-WildGunman-LucasBoffa\\TPMavi-WildGunman-LucasBoffa\\Ventana.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AAE67AE1-2CFD-4409-8FFD-48BE412678A1}|TPMavi-WildGunman-LucasBoffa\\TPMavi-WildGunman-LucasBoffa.vcxproj|solutionrelative:TPMavi-WildGunman-LucasBoffa\\Ventana.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAE67AE1-2CFD-4409-8FFD-48BE412678A1}|TPMavi-WildGunman-LucasBoffa\\TPMavi-WildGunman-LucasBoffa.vcxproj|D:\\PROGRAMACION\\UNL-Tecnicatura Desarrollo de Videojuegos\\Modelos y Algoritmos para Videojuegos I\\TPMavi-WildGunman-LucasBoffa\\TPMavi-WildGunman-LucasBoffa\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AAE67AE1-2CFD-4409-8FFD-48BE412678A1}|TPMavi-WildGunman-LucasBoffa\\TPMavi-WildGunman-LucasBoffa.vcxproj|solutionrelative:TPMavi-WildGunman-LucasBoffa\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAE67AE1-2CFD-4409-8FFD-48BE412678A1}|TPMavi-WildGunman-LucasBoffa\\TPMavi-WildGunman-LucasBoffa.vcxproj|D:\\PROGRAMACION\\UNL-Tecnicatura Desarrollo de Videojuegos\\Modelos y Algoritmos para Videojuegos I\\TPMavi-WildGunman-LucasBoffa\\TPMavi-WildGunman-LucasBoffa\\PlayerCrosshair.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AAE67AE1-2CFD-4409-8FFD-48BE412678A1}|TPMavi-WildGunman-LucasBoffa\\TPMavi-WildGunman-LucasBoffa.vcxproj|solutionrelative:TPMavi-WildGunman-LucasBoffa\\PlayerCrosshair.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAE67AE1-2CFD-4409-8FFD-48BE412678A1}|TPMavi-WildGunman-LucasBoffa\\TPMavi-WildGunman-LucasBoffa.vcxproj|D:\\PROGRAMACION\\UNL-Tecnicatura Desarrollo de Videojuegos\\Modelos y Algoritmos para Videojuegos I\\TPMavi-WildGunman-LucasBoffa\\TPMavi-WildGunman-LucasBoffa\\Personaje.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AAE67AE1-2CFD-4409-8FFD-48BE412678A1}|TPMavi-WildGunman-LucasBoffa\\TPMavi-WildGunman-LucasBoffa.vcxproj|solutionrelative:TPMavi-WildGunman-LucasBoffa\\Personaje.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAE67AE1-2CFD-4409-8FFD-48BE412678A1}|TPMavi-WildGunman-LucasBoffa\\TPMavi-WildGunman-LucasBoffa.vcxproj|D:\\PROGRAMACION\\UNL-Tecnicatura Desarrollo de Videojuegos\\Modelos y Algoritmos para Videojuegos I\\TPMavi-WildGunman-LucasBoffa\\TPMavi-WildGunman-LucasBoffa\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AAE67AE1-2CFD-4409-8FFD-48BE412678A1}|TPMavi-WildGunman-LucasBoffa\\TPMavi-WildGunman-LucasBoffa.vcxproj|solutionrelative:TPMavi-WildGunman-LucasBoffa\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Ventana.h",
+              "DocumentMoniker": "D:\\PROGRAMACION\\UNL-Tecnicatura Desarrollo de Videojuegos\\Modelos y Algoritmos para Videojuegos I\\TPMavi-WildGunman-LucasBoffa\\TPMavi-WildGunman-LucasBoffa\\Ventana.h",
+              "RelativeDocumentMoniker": "TPMavi-WildGunman-LucasBoffa\\Ventana.h",
+              "ToolTip": "D:\\PROGRAMACION\\UNL-Tecnicatura Desarrollo de Videojuegos\\Modelos y Algoritmos para Videojuegos I\\TPMavi-WildGunman-LucasBoffa\\TPMavi-WildGunman-LucasBoffa\\Ventana.h",
+              "RelativeToolTip": "TPMavi-WildGunman-LucasBoffa\\Ventana.h",
+              "ViewState": "AQIAACoAAAAAAAAAAAAswFIAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-18T20:43:20.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Saloon.h",
+              "DocumentMoniker": "D:\\PROGRAMACION\\UNL-Tecnicatura Desarrollo de Videojuegos\\Modelos y Algoritmos para Videojuegos I\\TPMavi-WildGunman-LucasBoffa\\TPMavi-WildGunman-LucasBoffa\\Saloon.h",
+              "RelativeDocumentMoniker": "TPMavi-WildGunman-LucasBoffa\\Saloon.h",
+              "ToolTip": "D:\\PROGRAMACION\\UNL-Tecnicatura Desarrollo de Videojuegos\\Modelos y Algoritmos para Videojuegos I\\TPMavi-WildGunman-LucasBoffa\\TPMavi-WildGunman-LucasBoffa\\Saloon.h",
+              "RelativeToolTip": "TPMavi-WildGunman-LucasBoffa\\Saloon.h",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAGQAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-18T20:38:42.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Game.h",
+              "DocumentMoniker": "D:\\PROGRAMACION\\UNL-Tecnicatura Desarrollo de Videojuegos\\Modelos y Algoritmos para Videojuegos I\\TPMavi-WildGunman-LucasBoffa\\TPMavi-WildGunman-LucasBoffa\\Game.h",
+              "RelativeDocumentMoniker": "TPMavi-WildGunman-LucasBoffa\\Game.h",
+              "ToolTip": "D:\\PROGRAMACION\\UNL-Tecnicatura Desarrollo de Videojuegos\\Modelos y Algoritmos para Videojuegos I\\TPMavi-WildGunman-LucasBoffa\\TPMavi-WildGunman-LucasBoffa\\Game.h",
+              "RelativeToolTip": "TPMavi-WildGunman-LucasBoffa\\Game.h",
+              "ViewState": "AQIAABAAAAAAAAAAAAAUwB4AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-16T22:31:51.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerCrosshair.h",
+              "DocumentMoniker": "D:\\PROGRAMACION\\UNL-Tecnicatura Desarrollo de Videojuegos\\Modelos y Algoritmos para Videojuegos I\\TPMavi-WildGunman-LucasBoffa\\TPMavi-WildGunman-LucasBoffa\\PlayerCrosshair.h",
+              "RelativeDocumentMoniker": "TPMavi-WildGunman-LucasBoffa\\PlayerCrosshair.h",
+              "ToolTip": "D:\\PROGRAMACION\\UNL-Tecnicatura Desarrollo de Videojuegos\\Modelos y Algoritmos para Videojuegos I\\TPMavi-WildGunman-LucasBoffa\\TPMavi-WildGunman-LucasBoffa\\PlayerCrosshair.h",
+              "RelativeToolTip": "TPMavi-WildGunman-LucasBoffa\\PlayerCrosshair.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-16T22:26:25.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Personaje.h",
+              "DocumentMoniker": "D:\\PROGRAMACION\\UNL-Tecnicatura Desarrollo de Videojuegos\\Modelos y Algoritmos para Videojuegos I\\TPMavi-WildGunman-LucasBoffa\\TPMavi-WildGunman-LucasBoffa\\Personaje.h",
+              "RelativeDocumentMoniker": "TPMavi-WildGunman-LucasBoffa\\Personaje.h",
+              "ToolTip": "D:\\PROGRAMACION\\UNL-Tecnicatura Desarrollo de Videojuegos\\Modelos y Algoritmos para Videojuegos I\\TPMavi-WildGunman-LucasBoffa\\TPMavi-WildGunman-LucasBoffa\\Personaje.h",
+              "RelativeToolTip": "TPMavi-WildGunman-LucasBoffa\\Personaje.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-18T20:11:42.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\PROGRAMACION\\UNL-Tecnicatura Desarrollo de Videojuegos\\Modelos y Algoritmos para Videojuegos I\\TPMavi-WildGunman-LucasBoffa\\TPMavi-WildGunman-LucasBoffa\\main.cpp",
+              "RelativeDocumentMoniker": "TPMavi-WildGunman-LucasBoffa\\main.cpp",
+              "ToolTip": "D:\\PROGRAMACION\\UNL-Tecnicatura Desarrollo de Videojuegos\\Modelos y Algoritmos para Videojuegos I\\TPMavi-WildGunman-LucasBoffa\\TPMavi-WildGunman-LucasBoffa\\main.cpp",
+              "RelativeToolTip": "TPMavi-WildGunman-LucasBoffa\\main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-15T20:31:05.502Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
