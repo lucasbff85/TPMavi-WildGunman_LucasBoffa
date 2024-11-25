@@ -83,6 +83,9 @@ public:
 		return Vector2f(x, y);
 	}
 
+	bool getDoor() {
+		return isDoor;
+	}
 
 	bool getOpen() {
 		return isOpen;
