@@ -28,8 +28,22 @@ public:
 
 
 
+		Image image;
+		image.loadFromFile("../Assets/window-open.png");
+		// Crear un agujero transparente en el medio (100x100 píxeles)
+		for (unsigned int y = 30; y < 205; ++y) {
+			for (unsigned int x = 55; x < 222; ++x) {
+				image.setPixel(x, y, sf::Color(0, 0, 0, 0)); // Transparente
+			}
+		}
+
+
 		//cargar texturas
 		texture_wopen.loadFromFile("../Assets/window-open.png");
+		texture_wopen.loadFromImage(image);
+		
+
+
 		texture_wclose.loadFromFile("../Assets/window-close.png");
 		texture_door.loadFromFile("../Assets/door.png");
 
@@ -58,7 +72,7 @@ public:
 				sprite_wopen.setScale(1.6, 1.3);
 			}
 			else {
-				sprite_wopen.setScale(1.7, 1.7);
+				sprite_wopen.setScale(1.7, 1.65);
 			}
 			wnd->draw(sprite_wopen);
 		}
@@ -83,6 +97,9 @@ public:
 		return Vector2f(x, y);
 	}
 
+	bool getDoor() {
+		return isDoor;
+	}
 
 	bool getOpen() {
 		return isOpen;

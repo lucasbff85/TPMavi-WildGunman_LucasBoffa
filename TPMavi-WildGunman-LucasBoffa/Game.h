@@ -6,57 +6,44 @@
 using namespace sf;
 
 class Game {
-	RenderWindow* _wnd;
-	PlayerCrosshair* _player;
+	
 	Saloon* _saloon;
+	Font font;
+	Text text;
+	int puntos = 0;
 	
 
 
 public:
 	Game() {
+		//font.loadFromFile("../Fuentes/SpicyRice-Regular.ttf");
+		//text.setFont(font);
+		//text.setCharacterSize(50); // Tamaño de la letra
+		//text.setFillColor(sf::Color::White); // Color de la letra
+		//text.setStyle(sf::Text::Bold); // Estilo de la letra
+		//text.setPosition(200, 250); // Posición en la ventana
+
+
 		
 
 		
-		_wnd = new RenderWindow(VideoMode(1800, 1200, 32), "Wild Gunman");
+		
 		_saloon = new Saloon();
-		_player = new PlayerCrosshair();
-		_wnd->setMouseCursorVisible(false);
-	}
-
-	void Loop() {
-		while (_wnd->isOpen()) {
-			ProcesarEventos();
-			Dibujar();
-		}
-	}
-
-
-	void ProcesarEventos() {
-		Event evt;
-		while (_wnd->pollEvent(evt)) {
-			if (evt.type == Event::Closed) {
-				_wnd->close();
-			}
-			if (evt.type == Event::MouseMoved) {
-				_player->Posicionar(evt.mouseMove.x, evt.mouseMove.y);
-			}
-			if (evt.type == Event::MouseButtonPressed) {
-				if (evt.mouseButton.button == Mouse::Button::Left)
-					Disparar();
-			}
-		}
-	}
-
-	void Disparar() {
-
-	}
-
-	void Dibujar() {
-
-		_wnd->clear();
+		while(!_saloon->getEnd())
+		_saloon->Loop();
 		
-		_saloon->Dibujar(_wnd);
-		_player->Dibujar(_wnd);
-		_wnd->display();
+		
+
 	}
+
+	
+
+
+	
+
+
+
+
+	
+
 };
