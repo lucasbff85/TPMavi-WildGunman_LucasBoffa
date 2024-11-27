@@ -9,6 +9,7 @@ using namespace sf;
 int main() {
 
 	Game myGame;
+	myGame.play();
 	
 	return 0;
 

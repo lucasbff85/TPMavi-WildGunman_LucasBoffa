@@ -1,6 +1,7 @@
 #pragma once
 #include "stdafx.h";
 
+
 using namespace sf;
 
 class Bang {
@@ -8,8 +9,11 @@ class Bang {
 	Texture tex_bang;
 	Sprite sprite_bang;
 	Clock clock;
-	Time time=seconds(1.5f);
+	Time time = seconds(1);
 	bool _isVisible = false;
+
+	SoundBuffer _buffer;  // Buffer de sonido
+	Sound _sound;         // Objeto de sonido
 
 public:
 	Bang() {
@@ -24,6 +28,9 @@ public:
 	
 		sprite_bang.setScale(5, 5);
 
+		_buffer.loadFromFile("../Sounds/pistol.mp3");
+		_sound.setBuffer(_buffer);
+
 	}
 
 	void disparar(Vector2f posicion) {
@@ -31,6 +38,7 @@ public:
 		// Reiniciar el reloj y activar el sprite
 		clock.restart();
 		_isVisible = true;
+		_sound.play();
 	}
 
 	void dibujar(RenderWindow* wnd) {

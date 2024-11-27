@@ -136,6 +136,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Bang.h" />
+    <ClInclude Include="Final.h" />
+    <ClInclude Include="Inicio.h" />
     <ClInclude Include="Saloon.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="Personaje.h" />

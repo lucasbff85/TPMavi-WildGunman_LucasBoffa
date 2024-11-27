@@ -1,49 +1,39 @@
 #pragma once
 #include "stdafx.h"
-#include "PlayerCrosshair.h"
+#include "Inicio.h"
 #include "Saloon.h"
+#include "Final.h"
 
 using namespace sf;
 
 class Game {
-	
+	Inicio* _inicio;
 	Saloon* _saloon;
-	Font font;
-	Text text;
-	int puntos = 0;
+	Final* _final;
+	Font _font;
+	Text _text;
+	int _puntos = 0;
+	int _vidas = 0;
 	
 
 
 public:
 	Game() {
-		//font.loadFromFile("../Fuentes/SpicyRice-Regular.ttf");
-		//text.setFont(font);
-		//text.setCharacterSize(50); // Tamaño de la letra
-		//text.setFillColor(sf::Color::White); // Color de la letra
-		//text.setStyle(sf::Text::Bold); // Estilo de la letra
-		//text.setPosition(200, 250); // Posición en la ventana
-
-
-		
-
-		
-		
+		_final = new Final();
 		_saloon = new Saloon();
-		while(!_saloon->getEnd())
-		_saloon->Loop();
-		
-		
-
+		_inicio = new Inicio();
 	}
-
 	
-
-
+	void play() {
+		_inicio->Loop();
+		_saloon->Loop();
+		_puntos = _saloon->getPuntos();
+		_vidas = _saloon->getVidas();
+		_final->setPuntos(_puntos);
+		_final->setVidas(_vidas);
+		if (_puntos == 10)
+			_final->setWin(true);
+		_final->Loop();
+	}
 	
-
-
-
-
-	
-
 };
