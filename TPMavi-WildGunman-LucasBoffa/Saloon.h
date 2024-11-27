@@ -163,9 +163,10 @@ public:
 		{
 			std::random_shuffle(personajes, personajes + 13);
 			int random = std::rand() % 5;
-			if (random == anterior)
+			if (random == anterior && random <4)
 				random++;
-
+			if (random == anterior && random == 4)
+				random--;
 			for (int i = 0; i < 5; i++)
 			{
 				if (i == random) {
